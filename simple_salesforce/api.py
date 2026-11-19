@@ -3,7 +3,7 @@
 from datetime import datetime
 
 # has to be defined prior to login import
-DEFAULT_API_VERSION = '59.0'
+DEFAULT_API_VERSION = '68.0'
 import base64
 import json
 import logging
