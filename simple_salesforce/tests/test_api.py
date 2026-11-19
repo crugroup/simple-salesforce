@@ -1410,7 +1410,7 @@ class TestRecordUrlInjection(unittest.TestCase):
         """External id paths containing a slash keep working"""
         responses.add(
             responses.PATCH,
-            'https://my.salesforce.com/services/data/v59.0/sobjects/Case/'
+            'https://my.salesforce.com/services/data/v68.0/sobjects/Case/'
             'ExtId__c/123',
             status=http.NO_CONTENT
             )
